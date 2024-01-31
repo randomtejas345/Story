@@ -1,0 +1,1 @@
+Hello  i came  here by using command "code chapter1.txt" which opens the file  in vs code in windows only
