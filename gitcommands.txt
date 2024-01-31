@@ -1,0 +1,12 @@
+learnt about:
+
+git init              used for initialising git repository locally on computer
+git add filename      used for adding given file  to staging area
+git log               used for logging all  the commits done till point
+git commit -m "msg"   used for commiting the changes and adding the msg along  with commit to remember for what commit was made
+git add .             used for adding all  the files to the staging area
+git diff filename     used for finding the difference between the last version of the given file  with the current version
+git checkout          used for reverting back to the last commit or last version
+git status            used for seeing the changes  made in directory  and commited or not commited
+ls -a                 lists all the file including the hidden ones
+code filename         opens the given file in default code editor
