@@ -10,3 +10,23 @@ git checkout          used for reverting back to the last commit or last version
 git status            used for seeing the changes  made in directory  and commited or not commited
 ls -a                 lists all the file including the hidden ones
 code filename         opens the given file in default code editor
+
+adding remote repo to local one:
+
+git remote add origin main url   used for linking the local repo to the repo online
+
+git branch -M main               
+
+gpt response: 
+            The git branch -M main command is used to rename the current branch in a Git repository. Specifically, it is commonly used to rename the default branch from "master" to "main." This change is often done to promote more inclusive language in the context of software development, as the term "master" has historical associations that some find insensitive.
+
+Here's a breakdown of the command:
+
+git branch: This is the command for managing branches in Git.
+-M: This option is used to force a rename, even if the new branch name already exists.
+main: This is the new name you want to give to the branch.
+So, git branch -M main renames the current branch to "main" and is often used as part of a process to update the default branch name in a Git repository. After running this command, you might also want to update the remote repository and configure it to use the new default branch name, and inform your collaborators about the change.
+
+
+
+git push -u origin main   used for pushing the local to the remote repo
