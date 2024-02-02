@@ -13,7 +13,7 @@ code filename         opens the given file in default code editor
 
 adding remote repo to local one:
 
-git remote add origin main url   used for linking the local repo to the repo online
+git remote add origin main 'url'   used for linking the local repo to the repo online
 
 git branch -M main               
 
