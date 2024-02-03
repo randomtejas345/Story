@@ -33,4 +33,10 @@ git push -u origin main   used for pushing the local to the remote repo
 
 git rm --cached -r .       used to remove all files in the given directory from staging area
 
-git clone repoURL   used for cloning remote repo to local system(remote to local)
+create a gitignore file for storing the names of the files which needs to be secret
+touch .gitignore
+code .gitignore
+
+inside it write the name of all the files that you want to keep secret in new line
+
+git clone repoURL   #used for cloning repo to local system(remote to local)
