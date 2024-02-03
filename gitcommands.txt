@@ -32,3 +32,5 @@ So, git branch -M main renames the current branch to "main" and is often used as
 git push -u origin main   used for pushing the local to the remote repo
 
 git rm --cached -r .       used to remove all files in the given directory from staging area
+
+git clone repoURL   used for cloning remote repo to local system(remote to local)
